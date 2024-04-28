@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1191</width>
+    <height>867</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QFrame" name="frame_9">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>500</height>
+       </size>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="0">
+        <widget class="QFrame" name="frame_11">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_9">
+          <item row="2" column="0">
+           <widget class="QLabel" name="image1Label_2">
+            <property name="text">
+             <string>Image 1</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="3">
+           <widget class="QLabel" name="image2Label_2">
+            <property name="text">
+             <string>Image 2</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="4">
+           <widget class="QComboBox" name="selection2">
+            <item>
+             <property name="text">
+              <string>Magnitude</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Phase</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Real</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Imaginary</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QComboBox" name="selection1">
+            <item>
+             <property name="text">
+              <string>Magnitude</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Phase</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Real</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Imaginary</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="0" column="0" colspan="2" alignment="Qt::AlignHCenter">
+           <widget class="DoubleClickLabel" name="img1">
+            <property name="autoFillBackground">
+             <bool>true</bool>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="3" colspan="2" alignment="Qt::AlignHCenter">
+           <widget class="ScrollLabel" name="component2">
+            <property name="autoFillBackground">
+             <bool>true</bool>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0" colspan="2" alignment="Qt::AlignHCenter">
+           <widget class="ScrollLabel" name="component1">
+            <property name="autoFillBackground">
+             <bool>true</bool>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3" colspan="2" alignment="Qt::AlignHCenter">
+           <widget class="DoubleClickLabel" name="img2">
+            <property name="autoFillBackground">
+             <bool>true</bool>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QFrame" name="frame_12">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_10">
+          <item row="4" column="4">
+           <widget class="QComboBox" name="selection4">
+            <item>
+             <property name="text">
+              <string>Magnitude</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Phase</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Real</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Imaginary</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QLabel" name="image1Label_3">
+            <property name="text">
+             <string>Image 3</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="3">
+           <widget class="QLabel" name="image2Label_3">
+            <property name="text">
+             <string>Image 4</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3" colspan="2" alignment="Qt::AlignHCenter">
+           <widget class="DoubleClickLabel" name="img4">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="autoFillBackground">
+             <bool>true</bool>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0" colspan="2" alignment="Qt::AlignHCenter">
+           <widget class="ScrollLabel" name="component3">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border:2px red solid;</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="QComboBox" name="selection3">
+            <item>
+             <property name="text">
+              <string>Magnitude</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Phase</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Real</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Imaginary</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="0" column="0" colspan="2" alignment="Qt::AlignHCenter">
+           <widget class="DoubleClickLabel" name="img3">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="autoFillBackground">
+             <bool>true</bool>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="3" colspan="2" alignment="Qt::AlignHCenter">
+           <widget class="ScrollLabel" name="component4">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>1677215</height>
+             </size>
+            </property>
+            <property name="autoFillBackground">
+             <bool>true</bool>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="frame_10">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="7" column="1">
+        <widget class="QSlider" name="component1MixerSlider">
+         <property name="maximum">
+          <number>100</number>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>Comopnent 1</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="1">
+        <widget class="QComboBox" name="component3MixerBox">
+         <item>
+          <property name="text">
+           <string>Real</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Imaginary</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="10" column="1">
+        <widget class="QSlider" name="component3MixerSlider">
+         <property name="maximum">
+          <number>100</number>
+         </property>
+         <property name="tracking">
+          <bool>false</bool>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="0">
+        <widget class="QLabel" name="label_8">
+         <property name="text">
+          <string>Component 3</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="6" rowspan="10" alignment="Qt::AlignHCenter">
+        <widget class="ScrollLabel" name="output1">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="autoFillBackground">
+          <bool>true</bool>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="3">
+        <widget class="QComboBox" name="component2MixerBox">
+         <item>
+          <property name="text">
+           <string>Real</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Imaginary</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="7" column="0" alignment="Qt::AlignRight">
+        <widget class="QLabel" name="slider1">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>0%</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::AutoText</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="2" alignment="Qt::AlignRight">
+        <widget class="QLabel" name="slider2">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>0%</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::AutoText</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="0" alignment="Qt::AlignRight">
+        <widget class="QLabel" name="slider3">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>0%</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::AutoText</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="3">
+        <widget class="QSlider" name="component2MixerSlider">
+         <property name="maximum">
+          <number>100</number>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="2" alignment="Qt::AlignRight">
+        <widget class="QLabel" name="slider4">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>0%</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::AutoText</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QComboBox" name="component1MixerBox">
+         <item>
+          <property name="text">
+           <string>Real</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Imaginary</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="10" column="3">
+        <widget class="QSlider" name="component4MixerSlider">
+         <property name="maximum">
+          <number>100</number>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="3">
+        <widget class="QComboBox" name="component4MixerBox">
+         <item>
+          <property name="text">
+           <string>Real</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Imaginary</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="5" column="2">
+        <widget class="QLabel" name="label_9">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>Component 2</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="2">
+        <widget class="QLabel" name="label_7">
+         <property name="text">
+          <string>Component 4</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="6" colspan="2">
+        <widget class="QFrame" name="frame">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QRadioButton" name="output1Radio">
+            <property name="text">
+             <string>Output 1</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="output2Radio">
+            <property name="text">
+             <string>Output 2</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="7" rowspan="10" alignment="Qt::AlignHCenter">
+        <widget class="ScrollLabel" name="output2">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="autoFillBackground">
+          <bool>true</bool>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="3">
+        <widget class="QFrame" name="frame_17">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+           <widget class="QRadioButton" name="combo1Radio">
+            <property name="layoutDirection">
+             <enum>Qt::LeftToRight</enum>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">text-align:center</string>
+            </property>
+            <property name="text">
+             <string>Real and Imaginary</string>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignHCenter">
+           <widget class="QRadioButton" name="combo2Radio">
+            <property name="layoutDirection">
+             <enum>Qt::LeftToRight</enum>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">align:center</string>
+            </property>
+            <property name="text">
+             <string>Magnitude and Phase</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QFrame" name="frame_2">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="0" column="0">
+           <widget class="QRadioButton" name="InnerRegion">
+            <property name="text">
+             <string>Inner Region</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1" rowspan="2">
+           <widget class="QSlider" name="rectangleSlider">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QRadioButton" name="OuterRegion">
+            <property name="text">
+             <string>Outer Region</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1191</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>DoubleClickLabel</class>
+   <extends>QLabel</extends>
+   <header>doubleclicklabel.h</header>
+  </customwidget>
+  <customwidget>
+   <class>ScrollLabel</class>
+   <extends>QLabel</extends>
+   <header>scrollLabel.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
